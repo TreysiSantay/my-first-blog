@@ -1,7 +1,8 @@
 from django.db import models
+from django.shortcuts import render
 from django.utils import timezone
 
-class Post(models.Model):
+class Publicidad(models.Model):
         autor = models.ForeignKey('auth.User', on_delete=models.CASCADE)
         titulo = models.CharField(max_length=200)
         texto = models.TextField()

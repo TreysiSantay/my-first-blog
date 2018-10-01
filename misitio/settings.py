@@ -25,7 +25,7 @@ SECRET_KEY = '1+9b5l#=ih^to^0c03%jsx3osyzr3svlka9ice*$*j8f9=8^oi'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['treysis.pythonanywhere.com','127.0.0.0']
+ALLOWED_HOSTS = ['treysis.pythonanywhere.com','127.0.0.1']
 
 
 # Application definition
